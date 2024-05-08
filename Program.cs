@@ -2,7 +2,7 @@
 using Azure.AI.OpenAI.Assistants;
 
 // OpenAI API
-var client = new AssistantsClient("sk-proj-I7b5MP8U5zShn9mXEIVaT3BlbkFJpjHzCFzuBd52FZZHsYIe");
+var client = new AssistantsClient("");
 
 // For Azure OpenAI service the model name is the "deployment" name
 var assistantCreationOptions = new AssistantCreationOptions("gpt-4-turbo")
